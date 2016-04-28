@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+typedef NS_ENUM(NSUInteger, DaysOfTheWeek) {
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday,
+};
+@property(nonatomic,assign)DaysOfTheWeek daysEnum;
 
 @end
 

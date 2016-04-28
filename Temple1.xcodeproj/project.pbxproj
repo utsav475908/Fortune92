@@ -15,6 +15,16 @@
 		D9793EC71CD2319D003E7EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9793EC51CD2319D003E7EF1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D9793EFB1CD231AC003E7EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9793EF71CD231AB003E7EF1 /* Temple2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9793ED71CD231AB003E7EF1;
+			remoteInfo = Temple2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		D9793EB41CD2319D003E7EF1 /* Temple1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temple1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9793EB81CD2319D003E7EF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -26,6 +36,7 @@
 		D9793EC31CD2319D003E7EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9793EC61CD2319D003E7EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9793EC81CD2319D003E7EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9793EF71CD231AB003E7EF1 /* Temple2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Temple2.xcodeproj; path = Temple2/Temple2.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,7 @@
 		D9793EAB1CD2319D003E7EF1 = {
 			isa = PBXGroup;
 			children = (
+				D9793EF71CD231AB003E7EF1 /* Temple2.xcodeproj */,
 				D9793EB61CD2319D003E7EF1 /* Temple1 */,
 				D9793EB51CD2319D003E7EF1 /* Products */,
 			);
@@ -77,6 +89,14 @@
 				D9793EB81CD2319D003E7EF1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9793EF81CD231AB003E7EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9793EFC1CD231AC003E7EF1 /* Temple2.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,12 +144,28 @@
 			mainGroup = D9793EAB1CD2319D003E7EF1;
 			productRefGroup = D9793EB51CD2319D003E7EF1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D9793EF81CD231AB003E7EF1 /* Products */;
+					ProjectRef = D9793EF71CD231AB003E7EF1 /* Temple2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D9793EB31CD2319D003E7EF1 /* Temple1 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D9793EFC1CD231AC003E7EF1 /* Temple2.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Temple2.app;
+			remoteRef = D9793EFB1CD231AC003E7EF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D9793EB21CD2319D003E7EF1 /* Resources */ = {
