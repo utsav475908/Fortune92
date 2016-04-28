@@ -13,6 +13,8 @@
 		D9793EC21CD2319D003E7EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9793EC01CD2319D003E7EF1 /* Main.storyboard */; };
 		D9793EC41CD2319D003E7EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9793EC31CD2319D003E7EF1 /* Assets.xcassets */; };
 		D9793EC71CD2319D003E7EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9793EC51CD2319D003E7EF1 /* LaunchScreen.storyboard */; };
+		D9793FA31CD24F86003E7EF1 /* PrintClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D9793FA21CD24F86003E7EF1 /* PrintClass.m */; };
+		D9793FA61CD2504D003E7EF1 /* SampleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D9793FA51CD2504D003E7EF1 /* SampleClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,10 @@
 		D9793EC61CD2319D003E7EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9793EC81CD2319D003E7EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9793EF71CD231AB003E7EF1 /* Temple2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Temple2.xcodeproj; path = Temple2/Temple2.xcodeproj; sourceTree = "<group>"; };
+		D9793FA11CD24F86003E7EF1 /* PrintClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintClass.h; sourceTree = "<group>"; };
+		D9793FA21CD24F86003E7EF1 /* PrintClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintClass.m; sourceTree = "<group>"; };
+		D9793FA41CD2504D003E7EF1 /* SampleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleClass.h; sourceTree = "<group>"; };
+		D9793FA51CD2504D003E7EF1 /* SampleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 				D9793EC51CD2319D003E7EF1 /* LaunchScreen.storyboard */,
 				D9793EC81CD2319D003E7EF1 /* Info.plist */,
 				D9793EB71CD2319D003E7EF1 /* Supporting Files */,
+				D9793FA11CD24F86003E7EF1 /* PrintClass.h */,
+				D9793FA21CD24F86003E7EF1 /* PrintClass.m */,
 			);
 			path = Temple1;
 			sourceTree = "<group>";
@@ -87,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				D9793EB81CD2319D003E7EF1 /* main.m */,
+				D9793FA41CD2504D003E7EF1 /* SampleClass.h */,
+				D9793FA51CD2504D003E7EF1 /* SampleClass.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9793EBF1CD2319D003E7EF1 /* ViewController.m in Sources */,
+				D9793FA61CD2504D003E7EF1 /* SampleClass.m in Sources */,
 				D9793EBC1CD2319D003E7EF1 /* AppDelegate.m in Sources */,
+				D9793FA31CD24F86003E7EF1 /* PrintClass.m in Sources */,
 				D9793EB91CD2319D003E7EF1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
