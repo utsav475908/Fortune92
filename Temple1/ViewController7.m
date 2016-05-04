@@ -6,13 +6,13 @@
 //  Copyright © 2016 WWDC. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewController7.h"
 
-@interface ViewController ()
+@interface ViewController7 ()
 
 @end
 
-@implementation ViewController
+@implementation ViewController7
 -(NSComparisonResult)compare:(NSNumber *)valueOfNumber {
     return [valueOfNumber compare:@0];
 }

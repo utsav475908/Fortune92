@@ -9,19 +9,33 @@
 #import "RootViewController.h"
 #import "ModelController.h"
 #import "DataViewController.h"
+#import "SomeObject.h"
 
 @interface RootViewController ()
 
 @property (readonly, strong, nonatomic) ModelController *modelController;
+@property (weak,nonatomic) IBOutlet UILabel *callbackLabel;
+@property (strong,nonatomic) NSTimer *timer;
 @end
 
 @implementation RootViewController
 
 @synthesize modelController = _modelController;
 
+-(void)runTimer{
+    SomeObject *someObject = [[SomeObject alloc]initWithCallback:^(NSString *someValue) {
+        self.callbackLabel.text = someValue;
+    }];
+    [someObject runAsyncProcess];
+
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+//    self.timer = [[NSTimer alloc]initWithFireDate:[NSDate dateWithTimeIntervalSinceNow:2] interval:2 target:self selector:@selector(runTimer) userInfo:nil repeats:YES];
+    
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(runTimer) userInfo:nil repeats:YES];
+    
+        // Do any additional setup after loading the view, typically from a nib.
     // Configure the page view controller and add it as a child view controller.
     self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
     self.pageViewController.delegate = self;

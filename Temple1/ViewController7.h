@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController7 : UIViewController
 
 typedef NS_ENUM(NSUInteger, DaysOfTheWeek) {
     Monday,

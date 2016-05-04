@@ -24,6 +24,13 @@
 			remoteGlobalIDString = D9793F5F1CD231F1003E7EF1;
 			remoteInfo = Temple5Library;
 		};
+		D9793FF21CD5E149003E7EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9793FED1CD5E148003E7EF1 /* Temple8.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9793FD31CD5E148003E7EF1;
+			remoteInfo = Temple8;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +47,7 @@
 		D9793F471CD231DD003E7EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9793F491CD231DD003E7EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9793F6A1CD231F1003E7EF1 /* Temple5Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Temple5Library.xcodeproj; path = Temple5Library/Temple5Library.xcodeproj; sourceTree = "<group>"; };
+		D9793FED1CD5E148003E7EF1 /* Temple8.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Temple8.xcodeproj; path = Temple5Library/Temple6Command/Temple7/Temple8/Temple8.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 				D9793F391CD231DD003E7EF1 /* AppDelegate.m */,
 				D9793F3B1CD231DD003E7EF1 /* FirstViewController.h */,
 				D9793F3C1CD231DD003E7EF1 /* FirstViewController.m */,
+				D9793FED1CD5E148003E7EF1 /* Temple8.xcodeproj */,
 				D9793F3E1CD231DD003E7EF1 /* SecondViewController.h */,
 				D9793F3F1CD231DD003E7EF1 /* SecondViewController.m */,
 				D9793F411CD231DD003E7EF1 /* Main.storyboard */,
@@ -100,6 +109,14 @@
 			isa = PBXGroup;
 			children = (
 				D9793F6F1CD231F1003E7EF1 /* Temple5Library.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9793FEE1CD5E148003E7EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9793FF31CD5E149003E7EF1 /* Temple8.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +171,10 @@
 					ProductGroup = D9793F6B1CD231F1003E7EF1 /* Products */;
 					ProjectRef = D9793F6A1CD231F1003E7EF1 /* Temple5Library.xcodeproj */;
 				},
+				{
+					ProductGroup = D9793FEE1CD5E148003E7EF1 /* Products */;
+					ProjectRef = D9793FED1CD5E148003E7EF1 /* Temple8.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -168,6 +189,13 @@
 			fileType = wrapper.framework;
 			path = Temple5Library.framework;
 			remoteRef = D9793F6E1CD231F1003E7EF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9793FF31CD5E149003E7EF1 /* Temple8.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Temple8.app;
+			remoteRef = D9793FF21CD5E149003E7EF1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -309,6 +337,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.Temple4Tabbed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -320,6 +349,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.Temple4Tabbed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -342,6 +372,7 @@
 				D9793F4E1CD231DD003E7EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

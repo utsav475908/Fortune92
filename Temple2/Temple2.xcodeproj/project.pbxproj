@@ -15,6 +15,7 @@
 		D9793EEB1CD231AB003E7EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9793EE91CD231AB003E7EF1 /* Main.storyboard */; };
 		D9793EED1CD231AB003E7EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9793EEC1CD231AB003E7EF1 /* Assets.xcassets */; };
 		D9793EF01CD231AB003E7EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9793EEE1CD231AB003E7EF1 /* LaunchScreen.storyboard */; };
+		D9793FA91CD2EA3A003E7EF1 /* SomeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D9793FA81CD2EA3A003E7EF1 /* SomeObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		D9793EEF1CD231AB003E7EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9793EF11CD231AB003E7EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9793F231CD231C8003E7EF1 /* Temple3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Temple3.xcodeproj; path = Temple3/Temple3.xcodeproj; sourceTree = "<group>"; };
+		D9793FA71CD2EA3A003E7EF1 /* SomeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeObject.h; sourceTree = "<group>"; };
+		D9793FA81CD2EA3A003E7EF1 /* SomeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				D9793EEE1CD231AB003E7EF1 /* LaunchScreen.storyboard */,
 				D9793EF11CD231AB003E7EF1 /* Info.plist */,
 				D9793EDA1CD231AB003E7EF1 /* Supporting Files */,
+				D9793FA71CD2EA3A003E7EF1 /* SomeObject.h */,
+				D9793FA81CD2EA3A003E7EF1 /* SomeObject.m */,
 			);
 			path = Temple2;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			files = (
 				D9793EE51CD231AB003E7EF1 /* DataViewController.m in Sources */,
 				D9793EDF1CD231AB003E7EF1 /* AppDelegate.m in Sources */,
+				D9793FA91CD2EA3A003E7EF1 /* SomeObject.m in Sources */,
 				D9793EE81CD231AB003E7EF1 /* ModelController.m in Sources */,
 				D9793EDC1CD231AB003E7EF1 /* main.m in Sources */,
 				D9793EE21CD231AB003E7EF1 /* RootViewController.m in Sources */,
